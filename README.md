@@ -1,5 +1,5 @@
 # #MenoumeSpiti-MovementSMS
-An easier way to send the Greek Movement Authorisation SMS that was (still is at the time of writing this, but I'm trying to be optimistic here) required during the COVID-19 lockdown described in https://forma.gov.gr/en/
+An easy way to send the Greek Movement Authorisation SMS that was (still is at the time of writing this, but I'm trying to be optimistic here)required during the COVID-19 lockdown described in https://forma.gov.gr/en/
 
 Made with SwiftUI, never approved by the AppStore
 
