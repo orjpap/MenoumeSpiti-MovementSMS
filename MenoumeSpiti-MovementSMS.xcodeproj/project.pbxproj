@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9105CCB7242E9978008F9FCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9105CCB6242E9978008F9FCD /* GoogleService-Info.plist */; };
+		91BF82D8242CE0F800D72623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82D7242CE0F800D72623 /* AppDelegate.swift */; };
+		91BF82DA242CE0F800D72623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82D9242CE0F800D72623 /* SceneDelegate.swift */; };
+		91BF82DC242CE0F800D72623 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82DB242CE0F800D72623 /* ContentView.swift */; };
+		91BF82DE242CE0FA00D72623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BF82DD242CE0FA00D72623 /* Assets.xcassets */; };
+		91BF82E1242CE0FA00D72623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BF82E0242CE0FA00D72623 /* Preview Assets.xcassets */; };
+		91BF82E4242CE0FA00D72623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BF82E2242CE0FA00D72623 /* LaunchScreen.storyboard */; };
+		91BF82EF242CE0FB00D72623 /* MenoumeSpiti_MovementSMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82EE242CE0FB00D72623 /* MenoumeSpiti_MovementSMSTests.swift */; };
+		91BF82FA242CE59E00D72623 /* ReasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82F9242CE59E00D72623 /* ReasonView.swift */; };
+		91BF82FC242CEB5600D72623 /* ReasonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82FB242CEB5600D72623 /* ReasonRow.swift */; };
+		91BF82FE242D028A00D72623 /* SMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF82FD242D028A00D72623 /* SMSViewController.swift */; };
+		91C4E92C242D40AF00845DAC /* ReasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4E92B242D40AF00845DAC /* ReasonModel.swift */; };
+		91C4E92F242D44B900845DAC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4E92E242D44B900845DAC /* FileManager.swift */; };
+		91C4E931242D577300845DAC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4E930242D577300845DAC /* Util.swift */; };
+		A1ED302713100F3FCCC2FCC5 /* libPods-MenoumeSpiti-MovementSMSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5836E3EC783BDD0E27DC719 /* libPods-MenoumeSpiti-MovementSMSTests.a */; };
+		A791703B5B720AF93EDFB7A6 /* libPods-MenoumeSpiti-MovementSMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371D06AFF888FE50AA566298 /* libPods-MenoumeSpiti-MovementSMS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91BF82EB242CE0FB00D72623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91BF82CC242CE0F800D72623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BF82D3242CE0F800D72623;
+			remoteInfo = "MenoumeSpiti-MovementSMS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4123388C9A539B3507F0FF /* Pods-MenoumeSpiti-MovementSMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenoumeSpiti-MovementSMS.release.xcconfig"; path = "Target Support Files/Pods-MenoumeSpiti-MovementSMS/Pods-MenoumeSpiti-MovementSMS.release.xcconfig"; sourceTree = "<group>"; };
+		371D06AFF888FE50AA566298 /* libPods-MenoumeSpiti-MovementSMS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MenoumeSpiti-MovementSMS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6312ABF488F80CA5EABA541B /* Pods-MenoumeSpiti-MovementSMSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenoumeSpiti-MovementSMSTests.release.xcconfig"; path = "Target Support Files/Pods-MenoumeSpiti-MovementSMSTests/Pods-MenoumeSpiti-MovementSMSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8185124CE2E9A4A8286C0508 /* Pods-MenoumeSpiti-MovementSMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenoumeSpiti-MovementSMS.debug.xcconfig"; path = "Target Support Files/Pods-MenoumeSpiti-MovementSMS/Pods-MenoumeSpiti-MovementSMS.debug.xcconfig"; sourceTree = "<group>"; };
+		9105CCB6242E9978008F9FCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91BF82D4242CE0F800D72623 /* Αίτηση Μετακίνησης.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Αίτηση Μετακίνησης.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BF82D7242CE0F800D72623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91BF82D9242CE0F800D72623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91BF82DB242CE0F800D72623 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91BF82DD242CE0FA00D72623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91BF82E0242CE0FA00D72623 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91BF82E3242CE0FA00D72623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91BF82E5242CE0FA00D72623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BF82EA242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenoumeSpiti-MovementSMSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BF82EE242CE0FB00D72623 /* MenoumeSpiti_MovementSMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenoumeSpiti_MovementSMSTests.swift; sourceTree = "<group>"; };
+		91BF82F0242CE0FB00D72623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BF82F9242CE59E00D72623 /* ReasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonView.swift; sourceTree = "<group>"; };
+		91BF82FB242CEB5600D72623 /* ReasonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonRow.swift; sourceTree = "<group>"; };
+		91BF82FD242D028A00D72623 /* SMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSViewController.swift; sourceTree = "<group>"; };
+		91C4E92B242D40AF00845DAC /* ReasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonModel.swift; sourceTree = "<group>"; };
+		91C4E92E242D44B900845DAC /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		91C4E930242D577300845DAC /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		9DC42D661AD8B974595F42DA /* Pods-MenoumeSpiti-MovementSMSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenoumeSpiti-MovementSMSTests.debug.xcconfig"; path = "Target Support Files/Pods-MenoumeSpiti-MovementSMSTests/Pods-MenoumeSpiti-MovementSMSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5836E3EC783BDD0E27DC719 /* libPods-MenoumeSpiti-MovementSMSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MenoumeSpiti-MovementSMSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91BF82D1242CE0F800D72623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A791703B5B720AF93EDFB7A6 /* libPods-MenoumeSpiti-MovementSMS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BF82E7242CE0FB00D72623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ED302713100F3FCCC2FCC5 /* libPods-MenoumeSpiti-MovementSMSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BD651F75A88226F94B9B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8185124CE2E9A4A8286C0508 /* Pods-MenoumeSpiti-MovementSMS.debug.xcconfig */,
+				0F4123388C9A539B3507F0FF /* Pods-MenoumeSpiti-MovementSMS.release.xcconfig */,
+				9DC42D661AD8B974595F42DA /* Pods-MenoumeSpiti-MovementSMSTests.debug.xcconfig */,
+				6312ABF488F80CA5EABA541B /* Pods-MenoumeSpiti-MovementSMSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91BF82CB242CE0F800D72623 = {
+			isa = PBXGroup;
+			children = (
+				91BF82D6242CE0F800D72623 /* MenoumeSpiti-MovementSMS */,
+				91BF82ED242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests */,
+				91BF82D5242CE0F800D72623 /* Products */,
+				39BD651F75A88226F94B9B13 /* Pods */,
+				9E61AF43EBF52DD77C621962 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91BF82D5242CE0F800D72623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91BF82D4242CE0F800D72623 /* Αίτηση Μετακίνησης.app */,
+				91BF82EA242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91BF82D6242CE0F800D72623 /* MenoumeSpiti-MovementSMS */ = {
+			isa = PBXGroup;
+			children = (
+				91BF82D7242CE0F800D72623 /* AppDelegate.swift */,
+				91BF82D9242CE0F800D72623 /* SceneDelegate.swift */,
+				91C4E92D242D415800845DAC /* Views */,
+				91C4E92B242D40AF00845DAC /* ReasonModel.swift */,
+				91C4E92E242D44B900845DAC /* FileManager.swift */,
+				91C4E930242D577300845DAC /* Util.swift */,
+				91BF82DD242CE0FA00D72623 /* Assets.xcassets */,
+				91BF82E2242CE0FA00D72623 /* LaunchScreen.storyboard */,
+				9105CCB6242E9978008F9FCD /* GoogleService-Info.plist */,
+				91BF82E5242CE0FA00D72623 /* Info.plist */,
+				91BF82DF242CE0FA00D72623 /* Preview Content */,
+			);
+			path = "MenoumeSpiti-MovementSMS";
+			sourceTree = "<group>";
+		};
+		91BF82DF242CE0FA00D72623 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91BF82E0242CE0FA00D72623 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91BF82ED242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				91BF82EE242CE0FB00D72623 /* MenoumeSpiti_MovementSMSTests.swift */,
+				91BF82F0242CE0FB00D72623 /* Info.plist */,
+			);
+			path = "MenoumeSpiti-MovementSMSTests";
+			sourceTree = "<group>";
+		};
+		91C4E92D242D415800845DAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91BF82DB242CE0F800D72623 /* ContentView.swift */,
+				91BF82FD242D028A00D72623 /* SMSViewController.swift */,
+				91BF82FB242CEB5600D72623 /* ReasonRow.swift */,
+				91BF82F9242CE59E00D72623 /* ReasonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E61AF43EBF52DD77C621962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				371D06AFF888FE50AA566298 /* libPods-MenoumeSpiti-MovementSMS.a */,
+				A5836E3EC783BDD0E27DC719 /* libPods-MenoumeSpiti-MovementSMSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91BF82D3242CE0F800D72623 /* MenoumeSpiti-MovementSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BF82F3242CE0FB00D72623 /* Build configuration list for PBXNativeTarget "MenoumeSpiti-MovementSMS" */;
+			buildPhases = (
+				B283BD279B757C97834E5D66 /* [CP] Check Pods Manifest.lock */,
+				91BF82D0242CE0F800D72623 /* Sources */,
+				91BF82D1242CE0F800D72623 /* Frameworks */,
+				91BF82D2242CE0F800D72623 /* Resources */,
+				91A281EF242E852100860C93 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MenoumeSpiti-MovementSMS";
+			productName = "MenoumeSpiti-MovementSMS";
+			productReference = 91BF82D4242CE0F800D72623 /* Αίτηση Μετακίνησης.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91BF82E9242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BF82F6242CE0FB00D72623 /* Build configuration list for PBXNativeTarget "MenoumeSpiti-MovementSMSTests" */;
+			buildPhases = (
+				F1FFD476A2D9E0DDC2E18B32 /* [CP] Check Pods Manifest.lock */,
+				91BF82E6242CE0FB00D72623 /* Sources */,
+				91BF82E7242CE0FB00D72623 /* Frameworks */,
+				91BF82E8242CE0FB00D72623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91BF82EC242CE0FB00D72623 /* PBXTargetDependency */,
+			);
+			name = "MenoumeSpiti-MovementSMSTests";
+			productName = "MenoumeSpiti-MovementSMSTests";
+			productReference = 91BF82EA242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91BF82CC242CE0F800D72623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = opapadopoulos;
+				TargetAttributes = {
+					91BF82D3242CE0F800D72623 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					91BF82E9242CE0FB00D72623 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 91BF82D3242CE0F800D72623;
+					};
+				};
+			};
+			buildConfigurationList = 91BF82CF242CE0F800D72623 /* Build configuration list for PBXProject "MenoumeSpiti-MovementSMS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91BF82CB242CE0F800D72623;
+			productRefGroup = 91BF82D5242CE0F800D72623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91BF82D3242CE0F800D72623 /* MenoumeSpiti-MovementSMS */,
+				91BF82E9242CE0FB00D72623 /* MenoumeSpiti-MovementSMSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91BF82D2242CE0F800D72623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BF82E4242CE0FA00D72623 /* LaunchScreen.storyboard in Resources */,
+				9105CCB7242E9978008F9FCD /* GoogleService-Info.plist in Resources */,
+				91BF82E1242CE0FA00D72623 /* Preview Assets.xcassets in Resources */,
+				91BF82DE242CE0FA00D72623 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BF82E8242CE0FB00D72623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91A281EF242E852100860C93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		B283BD279B757C97834E5D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MenoumeSpiti-MovementSMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1FFD476A2D9E0DDC2E18B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MenoumeSpiti-MovementSMSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91BF82D0242CE0F800D72623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C4E92C242D40AF00845DAC /* ReasonModel.swift in Sources */,
+				91C4E931242D577300845DAC /* Util.swift in Sources */,
+				91BF82FC242CEB5600D72623 /* ReasonRow.swift in Sources */,
+				91BF82D8242CE0F800D72623 /* AppDelegate.swift in Sources */,
+				91BF82FE242D028A00D72623 /* SMSViewController.swift in Sources */,
+				91BF82DA242CE0F800D72623 /* SceneDelegate.swift in Sources */,
+				91BF82FA242CE59E00D72623 /* ReasonView.swift in Sources */,
+				91BF82DC242CE0F800D72623 /* ContentView.swift in Sources */,
+				91C4E92F242D44B900845DAC /* FileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BF82E6242CE0FB00D72623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BF82EF242CE0FB00D72623 /* MenoumeSpiti_MovementSMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91BF82EC242CE0FB00D72623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91BF82D3242CE0F800D72623 /* MenoumeSpiti-MovementSMS */;
+			targetProxy = 91BF82EB242CE0FB00D72623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91BF82E2242CE0FA00D72623 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BF82E3242CE0FA00D72623 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91BF82F1242CE0FB00D72623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91BF82F2242CE0FB00D72623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91BF82F4242CE0FB00D72623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8185124CE2E9A4A8286C0508 /* Pods-MenoumeSpiti-MovementSMS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"MenoumeSpiti-MovementSMS/Preview Content\"";
+				DEVELOPMENT_TEAM = XHY6676M54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MenoumeSpiti-MovementSMS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "orjpap.menoumespiti-movement";
+				PRODUCT_NAME = "Αίτηση Μετακίνησης";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91BF82F5242CE0FB00D72623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4123388C9A539B3507F0FF /* Pods-MenoumeSpiti-MovementSMS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"MenoumeSpiti-MovementSMS/Preview Content\"";
+				DEVELOPMENT_TEAM = XHY6676M54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MenoumeSpiti-MovementSMS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "orjpap.menoumespiti-movement";
+				PRODUCT_NAME = "Αίτηση Μετακίνησης";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91BF82F7242CE0FB00D72623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC42D661AD8B974595F42DA /* Pods-MenoumeSpiti-MovementSMSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBR9B6AZ7;
+				INFOPLIST_FILE = "MenoumeSpiti-MovementSMSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "opapadopoulos.MenoumeSpiti-MovementSMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenoumeSpiti-MovementSMS.app/MenoumeSpiti-MovementSMS";
+			};
+			name = Debug;
+		};
+		91BF82F8242CE0FB00D72623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6312ABF488F80CA5EABA541B /* Pods-MenoumeSpiti-MovementSMSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBR9B6AZ7;
+				INFOPLIST_FILE = "MenoumeSpiti-MovementSMSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "opapadopoulos.MenoumeSpiti-MovementSMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenoumeSpiti-MovementSMS.app/MenoumeSpiti-MovementSMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91BF82CF242CE0F800D72623 /* Build configuration list for PBXProject "MenoumeSpiti-MovementSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BF82F1242CE0FB00D72623 /* Debug */,
+				91BF82F2242CE0FB00D72623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BF82F3242CE0FB00D72623 /* Build configuration list for PBXNativeTarget "MenoumeSpiti-MovementSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BF82F4242CE0FB00D72623 /* Debug */,
+				91BF82F5242CE0FB00D72623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BF82F6242CE0FB00D72623 /* Build configuration list for PBXNativeTarget "MenoumeSpiti-MovementSMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BF82F7242CE0FB00D72623 /* Debug */,
+				91BF82F8242CE0FB00D72623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91BF82CC242CE0F800D72623 /* Project object */;
+}

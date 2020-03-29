@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>681808515817-be6knk6oc10s61f93ateqitsg18pesia.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.681808515817-be6knk6oc10s61f93ateqitsg18pesia</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>681808515817-9lf9e43ffn7o0kge2q9d3qe4mvuo2289.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD8K2Ho4mjWsnM5mzofN8J_3jaNLCCu58o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>681808515817</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>orjpap.menoumespiti-movement</string>
+	<key>PROJECT_ID</key>
+	<string>menoumespiti-aitisi</string>
+	<key>STORAGE_BUCKET</key>
+	<string>menoumespiti-aitisi.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:681808515817:ios:7c064f0b3902d2acba1678</string>
+	<key>DATABASE_URL</key>
+	<string>https://menoumespiti-aitisi.firebaseio.com</string>
+</dict>
+</plist>
