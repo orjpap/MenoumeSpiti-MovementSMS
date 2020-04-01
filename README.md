@@ -17,4 +17,4 @@ Open terminal and cd to the root folder of the repo
 $: pod install
 ```
 
-After the installation is complete open MenoumeSpiti-MovementSMS.xcworkspace in XCode, press build and it should run.
+After the installation is complete open MenoumeSpiti-MovementSMS.xcworkspace in XCode, press build and it should run. (You need XCode > 11)
