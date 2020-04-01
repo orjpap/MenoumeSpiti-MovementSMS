@@ -47,7 +47,7 @@ extension SMSViewController {
 
         func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                parent.presentationMode.wrappedValue.dismiss()
+                self.parent.presentationMode.wrappedValue.dismiss()
             }
         }
     }
